@@ -1,0 +1,28 @@
+#ball-style{
+
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	border-radius: 50px;
+}
+#bar-style-1{
+	position: fixed;
+	    left: 50%;
+	top: 0;
+	height: 10px;
+	width: 100px;
+	background-color: blue;
+}
+#bar-style-2{
+	position: fixed;
+	    left: 50%;
+	bottom: 0;
+	height: 10px;
+	width: 100px;
+	background-color: blue;
+}
