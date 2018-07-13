@@ -15,14 +15,32 @@
 	    left: 50%;
 	top: 0;
 	height: 10px;
-	width: 100px;
-	background-color: blue;
+	width: 130px;
+	background-color: white;
 }
 #bar-style-2{
 	position: fixed;
 	    left: 50%;
 	bottom: 0;
 	height: 10px;
-	width: 100px;
-	background-color: blue;
+	width: 130px;
+	background-color: white;
+}
+#bar-style-1-feat{
+
+margin-left: 19%;
+    /* padding-left: 1%; */
+    width: 65%;
+    height: 100%;
+    background-color: red;
+
+}
+#bar-style-2-feat{
+
+margin-left: 19%;
+    /* padding-left: 1%; */
+    width: 65%;
+    height: 100%;
+    background-color: red;
+
 }

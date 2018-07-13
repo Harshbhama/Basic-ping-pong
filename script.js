@@ -15,20 +15,20 @@ var a = document.querySelector('#bar-style-2');
 
 			if(event.key=='d'){
 
-				t1.x +=10;
+				t1.x +=20;
 
 				t.style.left =t1.x;
-				a1.x +=10;
+				a1.x +=20;
 
 				a.style.left =t1.x;
 			}
 
 			if(event.key=='a'){
 
-				t1.x -=10;
+				t1.x -=20;
 
 				t.style.left =t1.x;
-				a1.x -=10;
+				a1.x -=20;
 
 				a.style.left =t1.x;
 
@@ -90,7 +90,7 @@ var k = ball.addEventListener("click",function(){
 
 	}
 
-	if(z.x>=a1.x && z.x<=a1.x+a1.width && z.y+z.width==a1.y ||bottom==1){
+	if(z.x>=a1.x && z.x<=a1.x+a1.width && z.y+z.width==a1.y  ||bottom==1){
 		movY +=-1;
 		bottom =1;
 
@@ -116,7 +116,7 @@ var k = ball.addEventListener("click",function(){
 	ball.style.top = movY;
 	// ball.style.bottom = movU;
 
-	},6)
+	},3)
 	
 
 
